@@ -1,0 +1,28 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+  }
+  
+  .headerContainer .headerLink, .headerContainer .headerButton {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  .headerContainer .headerButton {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .headerContainer .headerButton:hover {
+    background-color: #c82333;
+  }
+  

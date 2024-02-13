@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const colors = require('colors');
 const dotenv = require('dotenv').config();
 const connectDB = require('./config/db');
@@ -13,6 +14,7 @@ connectDB();
 
 const app = express();
 
+app.use(cors({ origin: 'http://localhost:3000' }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(fileUpload({

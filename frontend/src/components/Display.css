@@ -1,0 +1,50 @@
+.displayDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .displayTitle {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .displayInput, .displayButton {
+    margin: 10px 0;
+  }
+  
+  .imageContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* This will create a 3 column layout */
+    gap: 50px;
+  }
+  
+  .imageCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .displayImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .deleteButton {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .deleteButton:hover {
+    background-color: #c82333;
+  }
+  
